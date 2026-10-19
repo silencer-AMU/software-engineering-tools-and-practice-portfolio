@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f4f4f0">
+    <meta name="description" content="Samuel is a software engineer who builds thoughtful, reliable digital products.">
+    <title>Samuel — Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <nav class="nav wrap" aria-label="Main navigation">
+            <a class="wordmark" href="#home">SAMUEL<span>.</span></a>
+            <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+            <div class="nav-links" id="nav-links">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a class="nav-contact" href="mailto:hello@example.com">Let’s talk <span aria-hidden="true">↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero wrap" id="home">
+            <div>
+                <div class="eyebrow mono"><i class="status-dot"></i> Software engineer · Open to opportunities</div>
+                <h1>Good ideas,<br>built <span class="highlight">properly.</span></h1>
+                <p class="hero-copy">I’m Samuel, a software engineer who cares about the details behind useful products: clear thinking, dependable systems, and interfaces that feel right.</p>
+                <div class="hero-actions">
+                    <a class="button" href="#work">Explore my work <span class="arrow" aria-hidden="true">↘</span></a>
+                    <a class="text-link" href="#about">A little about me <span class="arrow" aria-hidden="true">→</span></a>
+                </div>
+                <div class="hero-note mono"><span>Currently</span><span>Learning, building, improving</span></div>
+            </div>
+            <div class="workbench" aria-label="Code preview showing a software engineering workflow">
+                <div class="bench-top mono"><span>BUILD / ITERATE / SHIP</span><span>01 — 03</span></div>
+                <div class="terminal">
+                    <div class="terminal-bar mono"><div class="terminal-dots"><i></i><i></i><i></i></div><span>approach.ts</span><span>•••</span></div>
+                    <div class="terminal-content" aria-hidden="true">
+                        <div class="code-line"><span class="line-no">01</span><span><span class="code-key">const</span> makeItUseful = <span class="code-key">async</span> () =&gt; {</span></div>
+                        <div class="code-line"><span class="line-no">02</span><span>&nbsp; <span class="code-key">const</span> problem = <span class="code-fn">understand</span>(people);</span></div>
+                        <div class="code-line"><span class="line-no">03</span><span>&nbsp; <span class="code-key">const</span> solution = <span class="code-fn">design</span>(problem);</span></div>
+                        <div class="code-line"><span class="line-no">04</span><span>&nbsp; <span class="code-key">const</span> product = <span class="code-key">await</span> <span class="code-fn">build</span>(solution);</span></div>
+                        <div class="code-line"><span class="line-no">05</span><span>&nbsp; <span class="code-key">return</span> <span class="code-fn">makeBetter</span>(product);</span></div>
+                        <div class="code-line"><span class="line-no">06</span><span>};</span></div>
+                        <div class="code-line"><span class="line-no">07</span><span class="code-comment">// iterate with care</span></div>
+                    </div>
+                </div>
+                <div class="bench-bottom"><div><strong>Thoughtful by design.</strong><small>Built for people. Made to last.</small></div><span class="bench-index">SE / PORTFOLIO</span></div>
+            </div>
+        </section>
+
+        <section class="section" id="work">
+            <div class="wrap">
+                <div class="section-heading">
+                    <h2>Selected work<span class="heading-dot">.</span></h2>
+                    <p>Practical ideas, thoughtfully engineered.</p>
+                </div>
+                <div class="work-grid">
+                    <article class="project">
+                        <div class="project-visual visual-blue" aria-hidden="true">
+                            <span class="project-label mono">01 / PRODUCTIVITY</span>
+                            <div class="mock-window"><div class="mock-head"><i></i><i></i><i></i></div><div class="mock-body"><div class="mock-title"></div><div class="mock-subtitle"></div><div class="mock-row"><div class="mock-icon"></div><div class="mock-lines"><i></i><i></i></div></div><div class="mock-row"><div class="mock-icon"></div><div class="mock-lines"><i></i><i></i></div></div><div class="mock-row"><div class="mock-icon"></div><div class="mock-lines"><i></i><i></i></div></div></div></div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta mono"><span>Case study 01</span><span>Product design</span></div>
+                            <h3>Focus, not friction</h3>
+                            <p>A calmer way to organize everyday work, from first task to finished sprint.</p>
+                            <div class="tags"><span class="tag">REACT</span><span class="tag">TYPESCRIPT</span><span class="tag">UX</span></div>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <div class="project-visual visual-green" aria-hidden="true">
+                            <span class="project-label mono">02 / DEVELOPER TOOLS</span>
+                            <div class="mock-window"><div class="mock-head"><i></i><i></i><i></i></div><div class="mock-body"><div class="mock-title"></div><div class="mock-subtitle"></div><div class="mock-chart"><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta mono"><span>Case study 02</span><span>Data visualization</span></div>
+                            <h3>Signal over noise</h3>
+                            <p>A focused dashboard that turns project activity into a clear next step.</p>
+                            <div class="tags"><span class="tag">JAVASCRIPT</span><span class="tag">API DESIGN</span><span class="tag">CHARTS</span></div>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <div class="project-visual visual-coral" aria-hidden="true">
+                            <span class="project-label mono">03 / ENGINEERING</span>
+                            <div class="mock-window"><div class="mock-head"><i></i><i></i><i></i></div><div class="mock-code"><span>const</span> result = await<br>&nbsp; service.run({<br>&nbsp;&nbsp; reliable: true,<br>&nbsp;&nbsp; tested: true,<br>&nbsp; });<br><br><span>// made to scale</span></div></div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta mono"><span>Case study 03</span><span>Backend systems</span></div>
+                            <h3>Reliable at the core</h3>
+                            <p>A resilient service foundation designed for maintainability and growth.</p>
+                            <div class="tags"><span class="tag">NODE.JS</span><span class="tag">POSTGRESQL</span><span class="tag">TESTING</span></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="wrap about">
+                <div class="about-lead">
+                    <div class="mono about-kicker">A bit about me / 01</div>
+                    <h2>Curious by nature. Careful by craft.</h2>
+                </div>
+                <div class="about-copy">
+                    <p>I enjoy the full journey from a messy problem to a clear, working solution. That means asking better questions, choosing tools for a reason, and sweating the details that make software dependable.</p>
+                    <p>I’m always learning and looking for thoughtful teams, interesting problems, and opportunities to build things that genuinely help.</p>
+                    <div class="principles">
+                        <div class="principle"><strong>Good foundations</strong><span>Readable code, useful tests, and systems that can evolve.</span></div>
+                        <div class="principle"><strong>Human outcomes</strong><span>Technology should make a real task a little easier.</span></div>
+                        <div class="principle"><strong>Keep learning</strong><span>Stay curious, share knowledge, and improve the work.</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="wrap contact-inner">
+                <div><div class="mono">Have a good problem?</div><h2>Let’s make<br>something useful.</h2></div>
+                <a class="button" href="mailto:hello@example.com">Get in touch <span class="arrow" aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap footer-inner mono">
+            <span>© <span id="year"></span> Samuel. Built with care.</span>
+            <span><a href="#home">Back to top ↑</a></span>
+        </div>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', String(!isOpen));
+            menuToggle.setAttribute('aria-label', isOpen ? 'Open menu' : 'Close menu');
+            navLinks.classList.toggle('open', !isOpen);
+        });
+
+        navLinks.addEventListener('click', (event) => {
+            if (event.target.closest('a')) {
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuToggle.setAttribute('aria-label', 'Open menu');
+                navLinks.classList.remove('open');
+            }
+        });
+
+        document.querySelector('#year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
