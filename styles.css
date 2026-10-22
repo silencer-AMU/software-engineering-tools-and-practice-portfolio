@@ -11,13 +11,12 @@
     --sans: "Manrope", "Segoe UI", sans-serif;
 }
 
+background { display: block; position: fixed; inset: 0; z-index: -1; background: var(--paper); }
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 88px; }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
 a { color: inherit; }
-button { font: inherit; }
-.wrap { width: min(1180px, calc(100% - 64px)); margin-inline: auto; }
-.mono { font-family: var(--mono); font-size: 11px; letter-spacing: 0; text-transform: uppercase; }
 
 .topbar { height: 74px; border-bottom: 1px solid var(--line); display: flex; align-items: center; }
 .nav { display: flex; align-items: center; justify-content: space-between; gap: 28px; }
